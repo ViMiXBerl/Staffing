@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { colors } from "../../styles/colors";
+import img from "../../assets/images/Frame45.png";
 
 export const Main = styled.main`
 	width: 100%;
@@ -40,7 +41,9 @@ export const Section = styled.section`
 		font-size: 14px;
 		line-height: 22px;
 		padding: 3rem auto;
-		background: #000000;
+		background-image: url(${img});
+		background-size: cover;
+		background-repeat: no-repeat;
 		margin: 0;
 		padding: 2rem 0;
 	}
