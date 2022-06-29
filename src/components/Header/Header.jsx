@@ -1,5 +1,10 @@
 import React from "react";
-import { HeaderStyled, HeaderWrapper, SocialsWrapper } from "./HeaderStyled";
+import {
+	HeaderStyled,
+	HeaderWrapper,
+	SocialsWrapper,
+	SocialLink,
+} from "./HeaderStyled";
 import { Icon, TelegramIcon, ViberIcon } from "../../assets/index.js";
 
 const Header = () => {
@@ -8,12 +13,12 @@ const Header = () => {
 			<HeaderWrapper>
 				<Icon />
 				<SocialsWrapper>
-					<a href='https://t.me/vilutsdev' target='_blank'>
+					<SocialLink href='https://t.me/vilutsdev' target='_blank'>
 						<TelegramIcon />
-					</a>
-					<a target='_blank'>
+					</SocialLink>
+					<SocialLink target='_blank'>
 						<ViberIcon />
-					</a>
+					</SocialLink>
 				</SocialsWrapper>
 			</HeaderWrapper>
 		</HeaderStyled>

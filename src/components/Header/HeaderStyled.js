@@ -17,3 +17,5 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const SocialsWrapper = styled.div``;
+
+export const SocialLink = styled.a``;
