@@ -8,6 +8,7 @@
     height: 100vh;
     background-image: url(./assets/images/Rectangle\ 43.svg);
     position: absolute;
+    display: flex;
 }
 
 .main__background-image{
@@ -18,27 +19,20 @@
 }
 
 .first-image{
-   
     background-image: url(./assets/images/Rectangle39.svg);
 }
 
 .second-image{
-    
     background-image: url(./assets/images/Rectangle\ 40.svg);
 }
 
 .third-image{
-   
     background-image: url(./assets/images/Rectangle\ 41.svg);  
 }
 
 .fourth-image{
-   
     background-image: url(./assets/images/Rectangle\ 42.svg);
 }
-
-
-
 
 /* @media (max-width: 1450px) {
     .main__background{
@@ -69,9 +63,16 @@
 @media (max-width: 500px) {
     .main__background{
         height: 23vh;
+        position: unset;
+    }
+    .back{
+        position: absolute;
     }
     .main__background-image{
         height: 23vh;
+    }
+    .separator{
+        display: none;
     }
 }
 
