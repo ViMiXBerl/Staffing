@@ -5,6 +5,7 @@ import img from "../../assets/images/Frame45.png";
 export const Main = styled.main`
 	width: 100%;
 	height: 100vh;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;

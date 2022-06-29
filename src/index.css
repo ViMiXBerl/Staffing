@@ -44,33 +44,33 @@
 } */
 
 @media (max-width: 1000px) {
-    .main__background{
+    /* .main__background{
         height: 46vh;
     }
     .main__background-image{
         height: 46vh;
-    }
+    } */
 }
 
 @media (max-width: 700px) {
-    .main__background{
+    /* .main__background{
         height: 32vh;
     }
     .main__background-image{
         height: 32vh;
-    }
+    } */
 }
 @media (max-width: 500px) {
     .main__background{
-        height: 23vh;
+        /* height: 23vh; */
         position: unset;
     }
     .back{
         position: absolute;
     }
-    .main__background-image{
+    /* .main__background-image{
         height: 23vh;
-    }
+    } */
     .separator{
         display: none;
         
