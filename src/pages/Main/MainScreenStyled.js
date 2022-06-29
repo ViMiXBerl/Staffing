@@ -66,7 +66,7 @@ export const Title = styled.h1`
 
 	@media (max-width: 500px) {
 		text-align: left;
-		padding: 0 3rem 0;
+		padding: 0 1rem 0;
 	}
 `;
 
@@ -89,6 +89,6 @@ export const Paragraph = styled.p`
 
 	@media (max-width: 500px) {
 		text-align: left;
-		padding: 0 3rem 0;
+		padding: 0 1rem 0;
 	}
 `;
