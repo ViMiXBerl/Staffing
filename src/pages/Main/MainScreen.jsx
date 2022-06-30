@@ -5,7 +5,7 @@ import Header from "../../components/Header/Header";
 const MainScreen = () => {
 	return (
 		<>
-			<Header></Header>
+			<Header />
 			<Main>
 				<Section>
 					<Title>

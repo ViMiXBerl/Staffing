@@ -34,6 +34,19 @@
     background-image: url(./assets/images/Rectangle\ 42.svg);
 }
 
+#hidden-top-services{
+    display: none;
+}
+
+#hidden-drop-box{
+    display: none;
+    justify-content: center;
+}
+
+.dropDownCard_last-link{
+    border: none !important;
+}
+
 /* @media (max-width: 1450px) {
     .main__background{
         height: 67vh;
