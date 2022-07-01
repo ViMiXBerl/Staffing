@@ -16,6 +16,7 @@ export const DropDownTitle = styled.p`
 	line-height: 22px;
 	color: ${colors.font};
 	display: block;
+	cursor: pointer;
 `;
 
 export const DropDownContainer = styled.div`
