@@ -43,35 +43,19 @@
     border: none !important;
 }
 
-/* @media (max-width: 1450px) {
-    .main__background{
-        height: 67vh;
-    }
-    .main__background-image{
-        height: 67vh;
-    }
-} */
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .main__background{
         padding: 2rem 0 0 0;
+		height: 40vh;
     }
-   
+
+   .main__background-image{
+		height: 40vh;
+
+   }
 }
 
-@media (max-width: 700px) {
-    /* .main__background{
-        height: 32vh;
-        position: unset;
-    }
-    .back{
-        position: absolute;
-    }
-    .main__background-image{
-        height: 32vh;
-    } */
-
-}
 @media (max-width: 500px) {
     .main__background{
         height: 23vh;
