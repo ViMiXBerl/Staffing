@@ -43,6 +43,11 @@
     border: none !important;
 }
 
+.close-menu-icon{
+    position: relative;
+    
+}
+
 
 @media (max-width: 1000px) {
     .main__background{

@@ -14,15 +14,19 @@ export const HeaderStyled = styled.header`
 
 	@media (max-width: 1200px) {
 		background-color: ${colors.main};
-		padding: 0.5rem 0;
+		padding: 0.5rem 1rem;
 	}
 `;
 
 export const HeaderWrapper = styled.div`
-	width: 85%;
+	width: 90%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
+	@media (max-width: 1200px) {
+		width: 100%;
+	}
 `;
 
 export const SocialsWrapper = styled.div`
@@ -64,6 +68,6 @@ export const ContactWrapper = styled.p`
 	margin: 0 1rem 0 0;
 
 	@media (max-width: 1200px) {
-		font-size: 14px;
+		font-size: 12px;
 	}
 `;

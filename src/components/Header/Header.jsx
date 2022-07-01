@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
 	HeaderStyled,
 	HeaderWrapper,
@@ -14,13 +14,18 @@ import {
 	ViberIcon,
 	ShortIcon,
 	OpenMenuIcon,
+	CloseMenuIcon,
 } from "../../assets/index.js";
 import DropDownMenu from "../DropDownMenu/DropDownMenu";
+import MobileMenu from "../MobileMenu/MobileMenu";
 
 // import DropDownDocs from "../DropDownDocs/DropDownDocs";
 
 const Header = () => {
-	console.log(document.documentElement.clientWidth === 1200);
+	const [isOpenMenu, setIsOpenMenu] = useState(false);
+
+	let handleClick = () => setIsOpenMenu(!isOpenMenu);
+
 	return (
 		<HeaderStyled>
 			<HeaderWrapper>
@@ -47,7 +52,21 @@ const Header = () => {
 						<ViberIcon />
 					</SocialLink>
 				</SocialsWrapper>
-				{document.documentElement.clientWidth <= 1200 ? <OpenMenuIcon /> : ""}
+				{document.documentElement.clientWidth <= 1200 ? (
+					isOpenMenu === false ? (
+						<OpenMenuIcon onClick={handleClick} />
+					) : (
+						<>
+							<CloseMenuIcon
+								onClick={handleClick}
+								className='close-menu-icon'
+							/>
+							<MobileMenu />
+						</>
+					)
+				) : (
+					""
+				)}
 			</HeaderWrapper>
 		</HeaderStyled>
 	);
