@@ -15,6 +15,7 @@ export const DropDownTitle = styled.p`
 	font-size: 16px;
 	line-height: 22px;
 	color: ${colors.font};
+	display: block;
 `;
 
 export const DropDownContainer = styled.div`
@@ -28,13 +29,17 @@ export const DropDownCard = styled.div`
 	background-color: ${colors.darkCard};
 	position: absolute;
 	top: 100%;
-	right: 62%;
+	right: 60%;
+	justify-content: center;
 `;
 
 export const DropDownCardWrapper = styled.div`
 	width: 90%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
 `;
 
 export const LinkStyled = styled(Link)`
@@ -45,4 +50,5 @@ export const LinkStyled = styled(Link)`
 	text-decoration: none;
 	padding: 0.6rem;
 	border-bottom: 1px solid ${colors.border};
+	width: 95%;
 `;

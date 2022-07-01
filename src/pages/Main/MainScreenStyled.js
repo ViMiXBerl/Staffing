@@ -46,7 +46,7 @@ export const Section = styled.section`
 		background-size: cover;
 		background-repeat: no-repeat;
 		margin: 0;
-		padding: 2rem 0;
+		padding: 5rem 0;
 	}
 `;
 

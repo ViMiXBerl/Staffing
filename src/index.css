@@ -34,13 +34,9 @@
     background-image: url(./assets/images/Rectangle\ 42.svg);
 }
 
-#hidden-top-services{
-    display: none;
-}
 
 #hidden-drop-box{
     display: none;
-    justify-content: center;
 }
 
 .dropDownCard_last-link{
@@ -56,13 +52,11 @@
     }
 } */
 
-@media (max-width: 1000px) {
-    /* .main__background{
-        height: 46vh;
+@media (max-width: 1200px) {
+    .main__background{
+        padding: 2rem 0 0 0;
     }
-    .main__background-image{
-        height: 46vh;
-    } */
+   
 }
 
 @media (max-width: 700px) {
@@ -82,6 +76,8 @@
     .main__background{
         height: 23vh;
         position: unset;
+        padding: 0;
+
     }
     .back{
         position: absolute;

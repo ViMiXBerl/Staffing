@@ -10,7 +10,12 @@ export const HeaderStyled = styled.header`
 	width: 100%;
 	background-color: transparent;
 	z-index: 3;
-	margin: 1rem 0;
+	padding: 1rem 0;
+
+	@media (max-width: 1200px) {
+		background-color: ${colors.main};
+		padding: 0.5rem 0;
+	}
 `;
 
 export const HeaderWrapper = styled.div`
@@ -27,14 +32,20 @@ export const SocialsWrapper = styled.div`
 
 export const SocialLink = styled.a`
 	margin: 0 1rem 0 0;
-	width: 28px;
-	height: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
 `;
 
 export const LinksWrapper = styled.div`
 	width: 60%;
 	display: flex;
 	justify-content: space-around;
+
+	@media (max-width: 1200px) {
+		display: none;
+	}
 `;
 
 export const LinkStyled = styled(Link)`
@@ -50,4 +61,9 @@ export const ContactWrapper = styled.p`
 	font-size: 16px;
 	line-height: 25px;
 	color: ${colors.font};
+	margin: 0 0.4rem 0 0;
+
+	@media (max-width: 1200px) {
+		font-size: 12px;
+	}
 `;
