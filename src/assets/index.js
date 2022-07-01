@@ -6,3 +6,5 @@ export { ReactComponent as ChevronTop } from "./images/chevron-down-1.svg";
 export { ReactComponent as ShortIcon } from "./images/ShortIcon.svg";
 export { ReactComponent as OpenMenuIcon } from "./images/align-right.svg";
 export { ReactComponent as CloseMenuIcon } from "./images/x.svg";
+export { ReactComponent as ArrowUpRight } from "./images/arrow-up-right.svg";
+export { ReactComponent as PlusCircle } from "./images/plus-circle.svg";

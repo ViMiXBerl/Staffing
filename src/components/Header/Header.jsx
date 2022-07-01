@@ -43,14 +43,21 @@ const Header = () => {
 					<LinkStyled to='/questions'>Вопросы</LinkStyled>
 					{/* <DropDownDocs>Договоры</DropDownDocs> */}
 				</LinksWrapper>
+
 				<SocialsWrapper>
 					<ContactWrapper>+375 &#40;25&#41; 619 77 00</ContactWrapper>
-					<SocialLink href='https://t.me/vilutsdev' target='_blank'>
-						<TelegramIcon />
-					</SocialLink>
-					<SocialLink target='_blank'>
-						<ViberIcon />
-					</SocialLink>
+					{isOpenMenu === false ? (
+						<>
+							<SocialLink href='https://t.me/vilutsdev' target='_blank'>
+								<TelegramIcon />
+							</SocialLink>
+							<SocialLink target='_blank'>
+								<ViberIcon />
+							</SocialLink>
+						</>
+					) : (
+						""
+					)}
 				</SocialsWrapper>
 				{document.documentElement.clientWidth <= 1200 ? (
 					isOpenMenu === false ? (
@@ -61,7 +68,20 @@ const Header = () => {
 								onClick={handleClick}
 								className='close-menu-icon'
 							/>
-							<MobileMenu />
+							{isOpenMenu === true ? (
+								<MobileMenu>
+									<>
+										<SocialLink href='https://t.me/vilutsdev' target='_blank'>
+											<TelegramIcon />
+										</SocialLink>
+										<SocialLink target='_blank'>
+											<ViberIcon />
+										</SocialLink>
+									</>
+								</MobileMenu>
+							) : (
+								""
+							)}
 						</>
 					)
 				) : (
