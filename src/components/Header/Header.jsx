@@ -13,8 +13,10 @@ import {
 	TelegramIcon,
 	ViberIcon,
 	ShortIcon,
+	OpenMenuIcon,
 } from "../../assets/index.js";
 import DropDownMenu from "../DropDownMenu/DropDownMenu";
+
 // import DropDownDocs from "../DropDownDocs/DropDownDocs";
 
 const Header = () => {
@@ -36,8 +38,8 @@ const Header = () => {
 					<LinkStyled to='/questions'>Вопросы</LinkStyled>
 					{/* <DropDownDocs>Договоры</DropDownDocs> */}
 				</LinksWrapper>
-				<ContactWrapper>+375 &#40;25&#41; 619 77 00</ContactWrapper>
 				<SocialsWrapper>
+					<ContactWrapper>+375 &#40;25&#41; 619 77 00</ContactWrapper>
 					<SocialLink href='https://t.me/vilutsdev' target='_blank'>
 						<TelegramIcon />
 					</SocialLink>
@@ -45,6 +47,7 @@ const Header = () => {
 						<ViberIcon />
 					</SocialLink>
 				</SocialsWrapper>
+				{document.documentElement.clientWidth <= 1200 ? <OpenMenuIcon /> : ""}
 			</HeaderWrapper>
 		</HeaderStyled>
 	);

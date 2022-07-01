@@ -61,9 +61,9 @@ export const ContactWrapper = styled.p`
 	font-size: 16px;
 	line-height: 25px;
 	color: ${colors.font};
-	margin: 0 0.4rem 0 0;
+	margin: 0 1rem 0 0;
 
 	@media (max-width: 1200px) {
-		font-size: 12px;
+		font-size: 14px;
 	}
 `;
