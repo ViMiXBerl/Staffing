@@ -54,7 +54,7 @@ export const LinksWrapper = styled.div`
 
 export const LinkStyled = styled(Link)`
 	font-family: "Raleway, 600, SemiBold", sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 22px;
 	text-decoration: none;
 	color: ${colors.font};
@@ -62,7 +62,7 @@ export const LinkStyled = styled(Link)`
 
 export const ContactWrapper = styled.p`
 	font-family: "Raleway, 600, SemiBold", sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 25px;
 	color: ${colors.font};
 	margin: 0 1rem 0 0;
