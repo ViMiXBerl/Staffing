@@ -46,7 +46,9 @@ const Header = () => {
 
 				<SocialsWrapper>
 					<ContactWrapper>+375 &#40;25&#41; 619 77 00</ContactWrapper>
-					{isOpenMenu === false ? (
+					{document.documentElement.clientWidth <= 800 ? (
+						" "
+					) : (
 						<>
 							<SocialLink href='https://t.me/vilutsdev' target='_blank'>
 								<TelegramIcon />
@@ -55,8 +57,6 @@ const Header = () => {
 								<ViberIcon />
 							</SocialLink>
 						</>
-					) : (
-						""
 					)}
 				</SocialsWrapper>
 				{document.documentElement.clientWidth <= 1200 ? (
