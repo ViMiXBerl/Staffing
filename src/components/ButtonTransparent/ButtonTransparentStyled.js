@@ -19,4 +19,8 @@ export const StyledTransparent = styled.button`
 	:focus {
 		background: ${colors.pressTransparent};
 	}
+
+	@media (max-width: 500px) {
+		width: 100%;
+	}
 `;

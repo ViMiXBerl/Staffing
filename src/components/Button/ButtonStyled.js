@@ -21,4 +21,9 @@ export const StyledButton = styled.button`
 	:focus {
 		background: ${colors.press};
 	}
+
+	@media (max-width: 500px) {
+		width: 100%;
+		margin: 0 0 1rem 0;
+	}
 `;
