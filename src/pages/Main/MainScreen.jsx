@@ -1,6 +1,14 @@
 import React from "react";
-import { Main, Section, Title, Paragraph } from "./MainScreenStyled";
+import {
+	Main,
+	Section,
+	Title,
+	Paragraph,
+	ButtonWrapper,
+} from "./MainScreenStyled";
 import Header from "../../components/Header/Header";
+import Button from "../../components/Button/Button";
+import ButtonTransparent from "../../components/ButtonTransparent/ButtonTransparent";
 
 const MainScreen = () => {
 	return (
@@ -17,6 +25,10 @@ const MainScreen = () => {
 						<br className='separator'></br>Любое количество человек и в любое
 						время.
 					</Paragraph>
+					<ButtonWrapper>
+						<Button>Заказать персонал</Button>
+						<ButtonTransparent>Узнать цены</ButtonTransparent>
+					</ButtonWrapper>
 				</Section>
 				<section className='main__background'>
 					<div className='main__background back'></div>

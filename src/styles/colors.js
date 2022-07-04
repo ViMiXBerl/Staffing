@@ -7,4 +7,8 @@ export const colors = {
 	card: "#E3E7F1",
 	darkCard: "#292E3A",
 	font: "#FFFFFF",
+	hover: "#357CD6",
+	press: "#265B9D",
+	hoverTransparent: "#328dfe40",
+	pressTransparent: "rgba(25, 57, 97, 0.25)",
 };

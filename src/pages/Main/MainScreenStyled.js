@@ -96,3 +96,10 @@ export const Paragraph = styled.p`
 		padding: 0 1rem 0;
 	}
 `;
+
+export const ButtonWrapper = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3rem 0 0 0;
+`;
