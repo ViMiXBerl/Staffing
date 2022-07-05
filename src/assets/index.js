@@ -8,3 +8,4 @@ export { ReactComponent as OpenMenuIcon } from "./images/align-right.svg";
 export { ReactComponent as CloseMenuIcon } from "./images/x.svg";
 export { ReactComponent as ArrowUpRight } from "./images/arrow-up-right.svg";
 export { ReactComponent as PlusCircle } from "./images/plus-circle.svg";
+export { ReactComponent as MinusCircle } from "./images/Group85.svg";

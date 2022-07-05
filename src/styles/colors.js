@@ -10,5 +10,5 @@ export const colors = {
 	hover: "#357CD6",
 	press: "#265B9D",
 	hoverTransparent: "#328dfe40",
-	pressTransparent: "rgba(25, 57, 97, 0.25)",
+	pressTransparent: "#19396140",
 };
