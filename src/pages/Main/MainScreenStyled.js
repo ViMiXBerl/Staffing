@@ -122,7 +122,7 @@ export const SectionPopularServices = styled.section`
 	}
 
 	@media (max-width: 500px) {
-		top: 90vh;
+		top: 110vh;
 	}
 `;
 

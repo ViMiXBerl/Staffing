@@ -34,13 +34,19 @@ const MobileMenu = ({ children }) => {
 					<MobileDropDown>
 						{isOpen === false ? (
 							<>
-								<LinkStyled to='/#'>УСЛУГИ</LinkStyled>
+								<LinkStyled to='/#' onClick={handleClick}>
+									УСЛУГИ
+								</LinkStyled>
 
 								<PlusCircle onClick={handleClick} />
 							</>
 						) : (
 							<>
-								<LinkStyled to='/#' style={{ color: `${colors.button}` }}>
+								<LinkStyled
+									to='/#'
+									style={{ color: `${colors.button}` }}
+									onClick={handleClick}
+								>
 									УСЛУГИ
 								</LinkStyled>
 								<MinusCircle onClick={handleClick} />
@@ -51,13 +57,19 @@ const MobileMenu = ({ children }) => {
 					<MobileDropDown style={{ borderBottom: "none" }}>
 						{isOpen === false ? (
 							<>
-								<LinkStyled to='/#'>УСЛУГИ</LinkStyled>
+								<LinkStyled to='/#' onClick={handleClick}>
+									УСЛУГИ
+								</LinkStyled>
 
 								<PlusCircle onClick={handleClick} />
 							</>
 						) : (
 							<>
-								<LinkStyled to='/#' style={{ color: `${colors.button}` }}>
+								<LinkStyled
+									to='/#'
+									style={{ color: `${colors.button}` }}
+									onClick={handleClick}
+								>
 									УСЛУГИ
 								</LinkStyled>
 								<MinusCircle onClick={handleClick} />
