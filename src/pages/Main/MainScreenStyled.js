@@ -138,6 +138,10 @@ export const PopularServicesTitle = styled.h1`
 	font-size: 28px;
 	line-height: 44px;
 	padding: 5rem 0 3rem;
+
+	@media (max-width: 500px) {
+		padding: 3rem 0 3rem;
+	}
 `;
 
 export const ServiceCardWrapper = styled.div`
