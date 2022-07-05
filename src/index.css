@@ -47,18 +47,17 @@
 
 .close-menu-icon{
     position: relative;
-    
 }
 
 
 @media (max-width: 1000px) {
     .main__background{
         padding: 2rem 0 0 0;
-		height: 40vh;
+		height: 50vh;
     }
 
    .main__background-image{
-		height: 40vh;
+		height: 50vh;
    }
 }
 

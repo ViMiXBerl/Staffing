@@ -11,6 +11,9 @@ export const MobileMenuContainer = styled.div`
 	right: 0;
 	color: ${colors.font};
 	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 `;
 
 export const LinkStyled = styled(Link)`
@@ -42,4 +45,13 @@ export const LinkWrapper = styled.div`
 	border-bottom: 1px solid ${colors.border};
 	display: flex;
 	flex-direction: column;
+`;
+
+export const DropDownMenuWrapper = styled.div`
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
 `;

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { MobileMenuContainer } from "./MobileMenuStyled";
-import { DropDownCardWrapper } from "../DropDownMenu/DropDownMenuStyled";
 import {
 	LinkStyled,
 	SocialsWrapper,
 	MobileDropDown,
 	LinkWrapper,
+	DropDownMenuWrapper,
 } from "./MobileMenuStyled";
 import { ArrowUpRight, PlusCircle, MinusCircle } from "../../assets/index";
 import { colors } from "../../styles/colors";
@@ -25,7 +25,7 @@ const MobileMenu = ({ children }) => {
 				<SocialsWrapper>{children}</SocialsWrapper>
 			)}
 
-			<DropDownCardWrapper>
+			<DropDownMenuWrapper>
 				<MobileDropDown>
 					<LinkStyled to='/'>ГЛАВНАЯ</LinkStyled>
 					<ArrowUpRight />
@@ -99,7 +99,7 @@ const MobileMenu = ({ children }) => {
 					<LinkStyled to='/questions'>ВОПРОСЫ</LinkStyled>
 					<ArrowUpRight />
 				</MobileDropDown>
-			</DropDownCardWrapper>
+			</DropDownMenuWrapper>
 		</MobileMenuContainer>
 	);
 };

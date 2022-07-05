@@ -11,4 +11,5 @@ export const colors = {
 	press: "#265B9D",
 	hoverTransparent: "#328dfe40",
 	pressTransparent: "#19396140",
+	blurCard: "#15161873",
 };

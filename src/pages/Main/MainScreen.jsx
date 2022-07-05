@@ -5,10 +5,16 @@ import {
 	Title,
 	Paragraph,
 	ButtonWrapper,
+	SectionPopularServices,
+	PopularServicesWrapper,
+	PopularServicesTitle,
+	ServiceCardWrapper,
 } from "./MainScreenStyled";
 import Header from "../../components/Header/Header";
 import Button from "../../components/Button/Button";
 import ButtonTransparent from "../../components/ButtonTransparent/ButtonTransparent";
+import ServiceCard from "../../components/ServiceCard/ServiceCard";
+import ServiceCardTitleStiled from "../../components/ServiceCardTitle/ServiceCardTitle";
 
 const MainScreen = () => {
 	return (
@@ -37,6 +43,20 @@ const MainScreen = () => {
 					<div className='main__background-image third-image'></div>
 					<div className='main__background-image fourth-image'></div>
 				</section>
+				<SectionPopularServices>
+					<PopularServicesWrapper>
+						<PopularServicesTitle>
+							ПОПУЛЯРНЫЕ УСЛУГИ НАШЕЙ КОМПАНИИ
+						</PopularServicesTitle>
+						<ServiceCardWrapper>
+							<ServiceCard>
+								<ServiceCardTitleStiled>
+									УСЛУГИ ГРУЗЧИКОВ
+								</ServiceCardTitleStiled>
+							</ServiceCard>
+						</ServiceCardWrapper>
+					</PopularServicesWrapper>
+				</SectionPopularServices>
 			</Main>
 		</>
 	);

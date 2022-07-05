@@ -109,3 +109,39 @@ export const ButtonWrapper = styled.div`
 		width: 100%;
 	}
 `;
+
+export const SectionPopularServices = styled.section`
+	position: absolute;
+	top: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	@media (max-width: 1000px) {
+		top: 50vh;
+	}
+
+	@media (max-width: 500px) {
+		top: 92.5vh;
+	}
+`;
+
+export const PopularServicesWrapper = styled.div`
+	display: flex;
+	width: 90%;
+	flex-direction: column;
+`;
+
+export const PopularServicesTitle = styled.h1`
+	font-family: "Raleway, 600, SemiBold", sans-serif;
+	color: ${colors.main};
+	font-size: 28px;
+	line-height: 44px;
+	padding: 5rem 0 3rem;
+`;
+
+export const ServiceCardWrapper = styled.div`
+	display: flex;
+	width: 100%;
+	padding: 0 0 3rem 0;
+`;
